@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SWU story</title>
+
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+ <script language="javascript">
+   function test(){
+     var url=new Array();
+     url[0]="one.html";
+     url[1]="two.html";
+     url[2]="three.html";
+	 url[3]="four.html";
+     var ints=parseInt(Math.random()*(url.length));
+    //本窗口打开     
+     window.location=url[ints];//新窗口打开 
+    }
+ 
+ </script>
+ 
+<h1 style="text-align:center">西大故事</h1>
+
+<a href="javascript:test()">
+<figure>
+  <div>
+	<span class="face">西大</span>
+	<span class="face">西大</span>
+  </div>
+</figure>
+</a>
+
+
+<p style="text-align:center">西南大学青年新媒体中心</p>
+</body>
+</html>
